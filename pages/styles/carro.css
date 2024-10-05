@@ -1,0 +1,54 @@
+main h1 {
+  text-align: center;
+  margin: 22px 0;
+}
+
+.carro {
+  background: #333;
+  color: #fff;
+  padding: 12px;
+  border-radius: 4px;
+  width: max-content;
+  margin: auto;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.carro div:nth-child(3) {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.carro div:nth-child(3) p:first-child {
+  margin-bottom: 12px;
+}
+
+.carro div:nth-child(3) p {
+  font-size: 18px;
+}
+
+.carro div:last-child {
+  margin-top: 18px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.carro div:last-child button {
+  padding: 8px 32px;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  width: max-content;
+}
+
+.carro div:last-child button:first-child {
+  background: #ffff00;
+  margin-right: 12px;
+}
+
+.carro div:last-child button:last-child {
+  background: #ff6347;
+}

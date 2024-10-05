@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novo Veículo</title>
+  <link rel="stylesheet" href="../src/global.css">
+  <link rel="stylesheet" href="../src/index.css">
+</head>
+<body>
+      <header>
+          <nav>
+            <a href="#">Cadastrar</a>
+            <span>|</span>
+            <a href="../pages/carros.html">Ver Veículos Cadastrados</a>
+          </nav>
+      </header>
+
+      <h2>Cadastrar Novo Veículo</h2>
+      <form name="cadastro" >
+            <div class="campo">
+                <label for="marca">Marca:</label>
+                <input type="text" name="marca" id="marca">
+            </div>
+
+            <div class="campo">
+              <label for="modelo">Modelo:</label>
+              <input type="text" name="modelo" id="modelo">
+          </div>
+
+          <div class="campo">
+            <label for="ano">Ano:</label>
+            <input type="text" name="ano" id="ano">
+        </div>
+
+          <div class="campo">
+            <label for="preco">Preço:</label>
+            <input type="text" name="preco" id="preco">
+        </div>
+
+        <div class="campo">
+          <label for="km">KM:</label>
+          <input type="text" name="km" id="km">
+      </div>
+
+        <div class="campo">
+          <label for="url_foto">Fotos do Veículo:</label>
+          <input type="text" name="url_foto" id="url_foto">
+      </div>
+
+
+      <div>
+          <button type="reset">Limpar</button>
+          <button type="submit">Salvar</button>
+      </div>
+
+      </form>
+    
+    <script type="module" src="../src/app.js"></script>
+</body>
+</html>
